@@ -67,6 +67,11 @@
                                         <img class="sidebar_img"
                                         t-attf-src="data:image/png;base64,{{app.webIconData}}"/>
                                     </t>
+                                    <t t-else="">
+                                        <span class="sidebar_app_icon">
+                                            <t t-esc="app.name[0]"/>
+                                        </span>
+                                    </t>
                                     <span class="sidebar_app_name">
                                         <t t-esc="app.name"/>
                                     </span>
