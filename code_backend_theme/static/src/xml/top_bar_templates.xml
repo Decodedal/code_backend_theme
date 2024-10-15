@@ -63,8 +63,10 @@
                                 <a role="menuitem"
                                 t-attf-href="#menu_id={{app.id}}"
                                 class="nav-link">
-                                    <img class="sidebar_img"
-                                    t-attf-src="data:image/png;base64,{{app.webIconData}}"/>
+                                    <t t-if="app.webIconData">
+                                        <img class="sidebar_img"
+                                        t-attf-src="data:image/png;base64,{{app.webIconData}}"/>
+                                    </t>
                                     <span class="sidebar_app_name">
                                         <t t-esc="app.name"/>
                                     </span>
