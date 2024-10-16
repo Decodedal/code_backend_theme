@@ -757,7 +757,7 @@ input {
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ced4da !important;
+    // border: 1px solid #ced4da !important;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -804,7 +804,7 @@ select {
     pointer-events: none;
 }
 .o_input {
-    border: solid 1px #ced4da !important;
+    // border: solid 1px #ced4da !important;
     color: #495057 !important;
 }
 .o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info .o_stat_value,
