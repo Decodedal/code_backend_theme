@@ -39,16 +39,18 @@ a:hover {
     color: #171a1c;
 }
 // Login button starts
-.btn-primary {
-    color: #fff;
-    background-color: #556ee6;
-    border-color: #556ee6;
-}
-.btn-primary:hover {
-    color: #fff;
-    background-color: #485ec4;
-    border-color: #4458b8;
-}
+body.o_web_client{
+    .btn-primary {
+        color: #fff;
+        background-color: #556ee6;
+        border-color: #556ee6;
+    }
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #485ec4;
+        border-color: #4458b8;
+    }
+
 .btn-check:active+.btn-primary,
 .btn-check:checked+.btn-primary,
 .btn-primary.active,.btn-primary:active,
@@ -64,6 +66,9 @@ a:hover {
     -webkit-box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
     box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
 }
+
+}
+
 .oe_login_form .btn {
     display: inline-block;
     cursor: pointer;

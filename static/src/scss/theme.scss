@@ -157,52 +157,58 @@ a.btn {
 }
 // Top Bar End
 
-// Button
-.btn {
-    display: inline-block;
-    font-weight: 400 !important;
-    line-height: 1.5 !important;
-    color: #495057;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 6px 15px !important;
-    border-radius: 4px !important;
-    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    height: 40px !important;
-    margin-bottom: 2px;
-}
-.btn-primary {
-    color: #fff !important;
-    background-color: $primary_accent !important;
-    border-color: $primary_accent !important;
-}
-.btn-primary:hover {
-    color: #fff !important;
-    background-color: $primary_hover !important;
-    border-color: #4458b8 !important;
-}
-.btn-primary:active {
-    color: #fff !important;
-    background-color: #4458b8 !important;
-    border-color: #4053ad !important;
-}
-.btn-check:focus+.btn-primary, .btn-primary:focus {
-    color: #fff;
-    background-color: #485ec4 !important;
-    border-color: #4458b8 !important;
-    -webkit-box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
-    box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
-}
+
+
+    // Button
+    .btn {
+        display: inline-block;
+        font-weight: 400 !important;
+        line-height: 1.5 !important;
+        color: #495057;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 6px 15px !important;
+        border-radius: 4px !important;
+        -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+        height: 40px !important;
+        margin-bottom: 2px;
+    }
+body.o_web_client{
+    .btn-primary {
+        color: #fff !important;
+        background-color: $primary_accent !important;
+        border-color: $primary_accent !important;
+    }
+    .btn-primary:hover {
+        color: #fff !important;
+        background-color: $primary_hover !important;
+        border-color: #4458b8 !important;
+    }
+    .btn-primary:active {
+        color: #fff !important;
+        background-color: #4458b8 !important;
+        border-color: #4053ad !important;
+    }
+    .btn-check:focus+.btn-primary, .btn-primary:focus {
+        color: #fff;
+        background-color: #485ec4 !important;
+        border-color: #4458b8 !important;
+        -webkit-box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
+        box-shadow: 0 0 0 .15rem rgba(111,132,234,.5) !important;
+    }
+
+
+
 .btn-primary i,.btn-primary span {
     color: #fff !important;
 }
@@ -298,6 +304,7 @@ button[name="action_uninstall"]:focus {
     border-color: #c1903d !important;
     -webkit-box-shadow: 0 0 0 0.15rem rgba(243,191,103,.50) !important;
     box-shadow: 0 0 0 0.15rem rgba(243,191,1,.50) !important;
+}
 }
 
 .o_statusbar_status .o_arrow_button.btn-secondary {
