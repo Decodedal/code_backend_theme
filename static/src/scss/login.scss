@@ -39,7 +39,7 @@ a:hover {
     color: #171a1c;
 }
 // Login button starts
-body.o_web_client{
+body.o_web_client:not(body.editor_has_snippets){
     .btn-primary {
         color: #fff;
         background-color: #556ee6;

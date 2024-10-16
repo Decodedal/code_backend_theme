@@ -183,7 +183,7 @@ a.btn {
         height: 40px !important;
         margin-bottom: 2px;
     }
-body.o_web_client{
+    body.o_web_client:not(body.editor_has_snippets){
     .btn-primary {
         color: #fff !important;
         background-color: $primary_accent !important;
