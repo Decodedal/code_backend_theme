@@ -694,6 +694,7 @@ i.o_PartnerImStatusIcon_outerBackground.fa.fa-circle.fa-stack-1x {
     background-color: $primary_accent !important;
     color: #ffffff !important;
     border-radius: 5px;
+    
 }
 .nav-link {
     display: block;
@@ -804,8 +805,12 @@ select {
     pointer-events: none;
 }
 .o_input {
-    // border: solid 1px #ced4da !important;
+    border: hidden 1px #ced4da !important;
     color: #495057 !important;
+
+    &:hover{
+        border-bottom: solid 1px #ced4da !important;
+    }
 }
 .o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info .o_stat_value,
 .o_form_view .oe_button_box .btn.oe_stat_button > span .o_stat_value {
@@ -1648,6 +1653,7 @@ div.dropdown-menu.bootstrap-datetimepicker-widget {
 }
 button.oe_stat_button {
     border-color: #616263!important;
+    margin: 0px 3px;
 }
 // Statusbar
 @media (min-width: 1200px) {
@@ -1694,5 +1700,5 @@ button.oe_stat_button {
 }
 .btn{
     height: 42px !important;
-    margin-bottom: 0px !important;
+    margin: 0px 1px;
 }
