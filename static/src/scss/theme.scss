@@ -183,7 +183,7 @@ a.btn {
         height: 40px !important;
         margin-bottom: 2px;
     }
-    body.o_web_client:not(body.editor_has_snippets){
+body.o_web_client:not(body.editor_has_snippets) {
     .btn-primary {
         color: #fff !important;
         background-color: $primary_accent !important;
@@ -216,6 +216,10 @@ a.btn {
     color: #fff !important;
     background-color: #74788d !important;
     border-color: #74788d !important;
+    &[aria-checked="true"] {
+       background-color: #000 !important;
+       border-color: #000 !important;
+      }
 }
 .btn-secondary:hover {
     color: #fff !important;
